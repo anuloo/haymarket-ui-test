@@ -18,3 +18,6 @@ Step 1 and 2 were simple, though I just realised for the future paging buttons h
 so the slides div position had to be absolute and the parent had to relative.
 Step 3 the slides div position had to be relative and all components position inside are set to absolute for layering support.
 
+Step 3 for the tracker i just used a simple unordered list of 4 items and added a selected class to the one is currently selected.
+Its simple the slide is currenly visible shows the right circle in colour blue.
+

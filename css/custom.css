@@ -88,3 +88,37 @@ img {
 .price-tag h2 {
     margin-top: 20px;
 }
+
+.details {
+    padding: 15px;
+    top: 400px;
+    position: absolute;
+    top: 290px;
+}
+
+.details h1 {
+    text-align: center;
+}
+
+.item-tracker {
+    position: absolute;
+    left: 77px;
+    top: 260px;
+}
+
+.item-tracker > ul {
+    list-style-type: none;
+}
+
+.item-tracker ul>li{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #ccc;
+    display: inline-block; 
+    margin-right: 5px
+}
+
+.item-tracker ul>li.selected{
+    background-color: #397ab8;
+}
