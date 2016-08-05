@@ -24,6 +24,8 @@ Its simple the slide is currenly visible shows the right circle in colour blue.
 
 Step 5 just duplicate the slides and change the image and the text and most importantly the id number for the script
 Step 6 All we doing here is as we using the overflow hidden we just need to set the only slide to display as a block the rest is just hide.
+
+
 --------------------------------------------------------------------------------------------
 
 #####Final Thoughts
@@ -32,4 +34,4 @@ Though this project was fairly simple it had its ups and downs for example to de
 Also could more enhanced to animate the slides or add a timeout for auto slide.
 Also to do more elegantly the tracking dots.
 
-##########Used only jqurey external library and simple texteditor on mac
+###### Used only jqurey external library and simple texteditor on mac
