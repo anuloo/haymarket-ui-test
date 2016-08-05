@@ -10,4 +10,11 @@ Technical test for Haymarket simple carousel
 - 5 After styled the first slide, add 3 more slide to the slides div.
 - 6 Add the paging buttons and hook it up with an event handler.
 
+------------------------------------------------------------------
+
+Steps done
+
+Step 1 and 2 were simple, though I just realised for the future paging buttons had to be layered on top of the slide group
+so the slides div position had to be absolute and the parent had to relative.
+Step 3 the slides div position had to be relative and all components position inside are set to absolute for layering support.
 
