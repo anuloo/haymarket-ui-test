@@ -122,3 +122,25 @@ img {
 .item-tracker ul>li.selected{
     background-color: #397ab8;
 }
+
+#previous, #next {
+    position: absolute;
+    z-index: 20;
+    top:150px;
+}
+
+#previous {
+    background: url("../img/prev-arrow-btn.png") left top no-repeat;
+    width: 19px;
+    height: 28px;
+    left: 15px;
+    cursor: pointer;
+}
+
+#next {
+    background: url("../img/next-arrow-btn.png") left top no-repeat;
+    width: 19px;
+    height: 28px;
+    left: 315px;
+    cursor: pointer;
+}

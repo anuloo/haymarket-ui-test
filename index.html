@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haymarket UI Test Simple Carousel</title>
-     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
      <!--carousel starts here -->
     <div class="carousel">
+        <div id="previous"></div>
+        <div id="next"></div>
         <div class="slides">
             <div id="1" class="slide">
                 <div class="price-tag">
@@ -29,6 +33,65 @@
                     <p>Classic PistonHeads Smiley logo now in the most classic colours of all, monochrome straight up yellow on black and vice versa. Simple, styliesh, effective..</p>
                 </div>
             </div>
+            <div id="2" class="slide">
+                <div class="price-tag">
+                    <h2>£17.99</h2>
+                    <h3>Buy now</h3>
+                </div>
+                <img src="img/grey-tshirt.jpg" border="0" alt="grey t-shirt"/>
+                <div class="item-tracker">
+                    <ul>
+                        <li></li>
+                        <li class="selected"></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="details">
+                    <h1>PH Smiley Grey T Shirt</h1>
+                    <p>Classic PistonHeads Smiley logo now in the most classic colours of all, monochrome straight up yellow on grey and vice versa. Simple, styliesh, effective..</p>
+                </div>
+            </div>
+            <div id="3" class="slide">
+                <div class="price-tag">
+                    <h2>£18.99</h2>
+                    <h3>Buy now</h3>
+                </div>
+                <img src="img/blue-tshirt.jpg" border="0" alt="blue t-shirt"/>
+                <div class="item-tracker">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li class="selected"></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="details">
+                    <h1>PH Smiley blue T Shirt</h1>
+                    <p>Classic PistonHeads Smiley logo now in the most classic colours of all, colour straight up yellow on blue and vice versa. Simple, styliesh, effective..</p>
+                </div>
+            </div>
+            <div id="4" class="slide">
+                <div class="price-tag">
+                    <h2>£19.99</h2>
+                    <h3>Buy now</h3>
+                </div>
+                <img src="img/green-tshirt.jpg" border="0" alt="green t-shirt"/>
+                <div class="item-tracker">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li class="selected"></li>
+                    </ul>
+                </div>
+                <div class="details">
+                    <h1>PH Smiley green T Shirt</h1>
+                    <p>Classic PistonHeads Smiley logo now in the most classic colours of all, colour straight up yellow on green and vice versa. Simple, styliesh, effective..</p>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="js/custom.js"></script>
 </body>
 </html>
